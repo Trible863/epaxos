@@ -92,7 +92,7 @@ To run all tests, run the command `make test`
 
 ## Library Interface
 
-The library is designed around the the `epaxos` type, which is a single-threaded
+The library is designed around the `epaxos` type, which is a single-threaded
 state machine implementing the Egalitarian Paxos consensus protocol. The state
 machine can be interacted with only through a `Node` instance, which is a
 thread-safe handle to a `epaxos` state machine.
